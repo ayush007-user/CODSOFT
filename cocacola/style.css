@@ -1,0 +1,228 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.main-header {
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+    top: 0;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.main-header img{
+    filter: invert(100%);
+    padding-left: 40px;
+}
+.main-header .logo {
+    width: 180px;
+}
+
+.main-nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.showcase {
+    height: 100vh;
+    background: rgb(28, 27, 27);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 11em;
+    color: #fff;
+    overflow: hidden;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+    font-weight: 600;
+    gap: 30px;
+}
+li{
+    list-style: none;
+}
+
+.circle {
+    position: absolute;
+    width: 140vw;
+    height: 140vw;
+    background: rgb(225, 30, 30);
+    border-radius: 40%;
+    bottom: -1%;
+    right: -90%;
+    z-index: 1;
+}
+.circle img{
+    height: 70vh;
+    width: auto;
+    position: absolute;
+    bottom: 7%;
+    left: 5%;
+}
+
+.content {
+    display: flex;
+    z-index: 2;
+}
+
+.textbox {
+    max-width: 500px;
+    margin-right: 50px;
+}
+
+.textbox h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.textbox p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #fff;
+    color: #e4002b;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.imgbox {
+    position: relative;
+}
+
+.swiper-container {
+    width: 350px;
+    height: 350px;
+}
+
+.more {
+    padding: 50px 0;
+    background-color: #f7f7f7;
+}
+
+/* .contanier::after{
+    height: 10px;
+    width: 5px;
+    background-color: red;
+} */
+
+
+.more h3 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    margin-left: 12em;
+    margin-top: 10px;
+}
+
+.more-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 14em;
+    gap: 20px;
+}
+
+.more-content .item {
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.more-content .item img {
+    object-fit: cover;
+    object-position: center;
+    height: 200px;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.more-content .item .img a{
+    
+    font-size: 20px;
+    font-weight: 400;
+}
+..more-content .item .img a i{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.drinks {
+    margin-top: 30px;
+    padding-left: 6rem;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.drink img {
+    width: 15vw;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+
+.drink a{
+    display: flex;
+    justify-content: center;
+}
+
+.main-footer {
+    padding: 40px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.footerlogo{
+    height: 50px;
+    margin-bottom: 12vh;
+    margin-left: 5rem;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.footer-bottom p {
+    margin: 10px 0;
+}
+
+.footer-bottom a {
+    margin: 0 10px;
+    color: #fff;
+}
